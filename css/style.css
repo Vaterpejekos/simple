@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 8px;
+    font-size: 18px;
+}
+header{
+    margin: 29px 0 22px 0;
+    background-color: #a52a2a;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main__section{
+    max-width: 758px;
+    width: 100%;
+}
+.lorem__ipsum{
+    margin-top: 27px;
+}
+ul{
+    margin: 19px 0px 22px 0px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    border: 4px dashed black ;
+    list-style-type: none;
+    margin-right: 4px;
+}
+ul :last-child{
+    margin-right: 0px;
+}
+a{
+    text-decoration: none;
+}
+a :visited{
+    color: blue;
+} 
+footer{
+    margin-bottom: 31px;
+    background-color: black;
+    text-align: center;
+    margin-top: 37px;
+    font-size: 20px;
+}
+footer p, header p{
+    max-width: 758px ;
+}
+.copy{ 
+    color: white;
+}
